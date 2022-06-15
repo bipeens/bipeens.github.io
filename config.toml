@@ -13,7 +13,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Bipeen Sawant"
-    description = "DevOps Engineer Resume"
+    description = "Lead DevOps Engineer Resume"
 
 
     primaryColor = "#54B689"
@@ -25,8 +25,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Bipeen Sawant"
-        tagline = "Senior DevOps Engineer"
-        avatar = "myavatar.png"
+        tagline = "Lead DevOps Engineer"
+        avatar = "Bipin.jpg"
 
 
 
@@ -45,11 +45,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "milindchawre@gmail.com"
+        text = "bipinbs88@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "site/"
-        text = "http://milindchawre.github.io/site/"
+        text = "http://bipeens.github.io/site/"
 
 
 
@@ -471,21 +471,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
         title = "Certifications"
         [[params.information.list.items]]
-        details = "Certified Kubernetes Administrator (CKA) [Scored 98%]"
+        details = "Certified Kubernetes Administrator (CKA)"
         [[params.information.list.items]]
-        details = "Certified Kubernetes Application Developer (CKAD) [Scored 96%]"
-        [[params.information.list.items]]
-        details = "Certified Jenkins Engineer (CJE) [Scored ~76%]"
-        [[params.information.list.items]]
-        details = "Certified Calico Operator: Level 1"
-        [[params.information.list.items]]
-        details = "Certified Rancher Operator: Level 1"
-        [[params.information.list.items]]
-        details = "Certified Kubernetes Application Developer (CKAD) [Scored 96%]"
-        [[params.information.list.items]]
-        details = "Microsoft Certified Azure Fundamentals [Scored 85%]"
-        [[params.information.list.items]]
-        details = "Microsoft Certified Azure Administrator Associate [Scored 91.5%]"
+        details = "Certified Kubernetes Application Developer (CKAD)"
 
         [[params.information.list]]
         title = "Technology Stack"
@@ -546,26 +534,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/milindchawre"
-        title = "milindchawre"
+        url = "//github.com/bipeens"
+        title = "bipeensawant"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/milind-chawre"
-        title = "milind-chawre"
-        [[params.social.list]]
-        icon = "fab fa-stack-overflow"
-        url = "//stackoverflow.com/users/6790948/mchawre?tab=profile"
-        title = "mchawre"
-	[[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/milindchawre"
-        title = "@milindchawre"
-	[[params.social.list]]
-        icon = "fas fa-blog"
-        url = "//milindchawre.github.io/site"
-        title = "blog"
+        url = "//linkedin.com/in/bipeen-sawant"
+        title = "bipeen-sawant"
 	[[params.social.list]]
         icon = "fab fa-facebook-square"
-        url = "//facebook.com/milind.chawre"
-        title = "milind.chawre"
+        url = "//facebook.com/bipeen.sawant"
+        title = "bipin.sawant"
 
