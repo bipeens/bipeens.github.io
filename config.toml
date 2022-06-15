@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://milindchawre.github.io/"
+baseURL = "https://bipeens.github.io/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
@@ -12,7 +12,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "MilindChawre"
+    author = "Bipeen Sawant"
     description = "DevOps Engineer Resume"
 
 
@@ -24,7 +24,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Milind Chawre"
+        name = "Bipeen Sawant"
         tagline = "Senior DevOps Engineer"
         avatar = "myavatar.png"
 
