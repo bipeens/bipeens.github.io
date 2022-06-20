@@ -23,7 +23,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     enable = true
     name = "Bipeen Sawant"
     tagline = "Lead DevOps Engineer"
-    avatar = "Bipin.jpg"
+    avatar = "Bipin.png"
 
 
 
@@ -39,11 +39,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "bipinbs88@gmail.com"
+        text = "bxxxxxxx8@gmail.com"
     [[params.contact.list]]
         icon = "fas fa-globe"
         url = "site/"
-        text = "http://bipeens.github.io/site/"
+        text = "http://bipeens.github.io/"
 
 
 
@@ -127,6 +127,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Badminton"
     [[params.interests.list]]
         name = "Travelling"
+    [[params.interests.list]]
+        name = "Table Tennis"
 
 
 
@@ -181,7 +183,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Senior Software Engineer"
         dates = "April 2010 - July 2015"
         company = "Cybage Software Pvt Ltd"
-        details = "Working on aproduct, a Java/J2EE web application, which provides comprehensive enterprise eCommerce solutions built on the DigitalRiver | globalCommerce™ platform."
+        details = "Working on a product, a Java/J2EE web application, which provides comprehensive enterprise eCommerce solutions built on the DigitalRiver | globalCommerce™ platform."
         [[params.experience.list.items]]
             details = "Implementing Messaging system using Apache Kafka"
 	    [[params.experience.list.items]]
@@ -203,26 +205,48 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.projects.list]]
             title = "IOTOD"
             meta = "Jan 2021 - Present"
-            tagline = ""
-            technologies = "Technologies: Hugo, Github Pages, Kubernetes, k3s, Okteto, Fairwinds Polaris, Fairwinds Goldilocks, Fairwinds Pluto."
+            tagline = "A platform on AWS EKS providing infrastructure services including Logging, Monitoring, Distribute Tracing, Datastores, Secret Management, Security with HA/DR capabilities, ServiceMesh, Messaging."
+            technologies = "Technologies: AWS, Kubernetes, ELK Stack, Prometheus Stack, TICK Stack, Terraform, Helm, Istio, Influxdb, External-dns, RabbitMQ, Postgres"
             [[params.projects.list.items]]
-                details = "Used hugo and github pages to configure my personal website and blog."
+                details = "Built a IAAS platform on AWS using EKS from scratch using terraform."
             [[params.projects.list.items]]
-                details = "Sign up as a beta tester in civo cloud community where I often play with their managed kubernetes service to try out new tools and technologies on top of kubernetes and blogs about it."
+                details = "Worked on various AWS services in the platform"
             [[params.projects.list.items]]
-                details = "Also recently got involved in collabnix and kubezilla community where I blogged about kubernetes and cloud native stuff."
+                details = "Worked on building AMIs using packer for kubernetes/Mesos using Centos as base images"
             [[params.projects.list.items]]
-                details = "Loves to hang out on slack community channels to learn new things, connect with like-minded peoples and help others."
+                details = "Designed and Created CI/CD pipelie using Gitops for the architecture"
+            [[params.projects.list.items]]
+                details = "Created a Disaster Recovery architecture and pipeline which is carried every quarter"
+            [[params.projects.list.items]]
+                details = "Managing Tenants with their onboarding over the platform"
+            [[params.projects.list.items]]
+                details = "Designed and Implemented Service Mesh ito the architecture"
+            [[params.projects.list.items]]
+                details = "Designed and Implemented Vault for Secfet Management"
+            [[params.projects.list.items]]
+                details = "Implemented autoscaling feature for nodes and services"
+            [[params.projects.list.items]]
+                details = "Designed and Implemented Certificate Management in the platform"
+            [[params.projects.list.items]]
+                details = "Implemented AWS Shield for DDos attack and Network Firewall to filter traffic"
+            [[params.projects.list.items]]
+                details = "Design, review and help the team to work in the agile environment"
+            [[params.projects.list.items]]
+                details = "Worked on various security tools like CIS Benchmark, Falco, Qualys, SecureAppCN, Corona"
+            [[params.projects.list.items]]
+                details = "Created CI/CD pipelie using Gitops for the architecture"
+            [[params.projects.list.items]]
+                details = "Manage SRE team with their daily activities"
 
         [[params.projects.list]]
             title = "IOT Software Platform"
             meta = "August 2015 - January 2021"
-            tagline = ""
-            technologies = "Technologies: Docker, Kubernetes, Grafana, Prometheus, Alertmanager, Scalyr, Helm, Terraform, Azure DevOps, GitHub Actions, Traefik Ingress, ExternalDns, Azure."
+            tagline = "It is a platform to solve common challenges in IAAS where devices and applications are highly distributed. This, helps you put compute power where you need it. "
+            technologies = "Technologies: Docker, Kubernetes, Elasticsearch, Logstash, Kibana, Grafana, Prometheus, TICK Stack, Helm, Terraform, Ansible, AWS, Consul, HaProxy"
             [[params.projects.list.items]]
                 details = "Working on complex enterprise application in Cloud Infrastructure domain mostly on AWS"
             [[params.projects.list.items]]
-                details = "Experience in building fairly complex micro-services based platform using"
+                details = "Experience in building fairly complex micro-services based platform using Docker, Kubernetes, Terraform, Ansible, Mesos, Marathon, Zookeeper, Consul DNS discovery, HAProxy, Chronos, Artifactory."
             [[params.projects.list.items]]
                 details = "Created own gitops pipeline for CICD automation for helmcharts deployment"
             [[params.projects.list.items]]
